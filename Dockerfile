@@ -7,9 +7,6 @@ RUN pip3 install numpy
 RUN pip3 install spidev
 RUN pip3 install unicornhathd
 
-# Dev tools (can be removed for production)
-# RUN apt update && apt install -y vim curl jq
-
 # Copy in the source file
 COPY ./tophat.py /
 
